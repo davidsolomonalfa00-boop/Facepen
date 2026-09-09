@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1877F2">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Facepen</title>
+</head>
+
+<body>
+
+<header>
+  <h1>Facepen</h1>
+  <button>👤</button>
+</header>
+
+<main>
+
+  <section class="composer">
+    <div class="avatar">D</div>
+
+    <input
+      id="postInput"
+      type="text"
+      placeholder="What's on your mind?"
+    >
+
+    <button id="postButton">Post</button>
+  </section>
+
+  <section class="quick-actions">
+    <button>🖼️ Photo</button>
+    <button>🎥 Video</button>
+    <button>🎤 Voice</button>
+  </section>
+
+  <section id="feed">
+    <p class="empty">
+      Your Facepen feed is ready.
+    </p>
+  </section>
+
+</main>
+
+<nav>
+  <button>🏠<small>Home</small></button>
+  <button>🔎<small>Search</small></button>
+  <button>💬<small>Messages</small></button>
+  <button>🔔<small>Alerts</small></button>
+  <button>👤<small>Profile</small></button>
+</nav>
+
+<script src="app.js"></script>
+
+</body>
+  </html>
